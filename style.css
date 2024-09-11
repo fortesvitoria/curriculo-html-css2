@@ -3,7 +3,7 @@
     --gradiente-azul: linear-gradient(90deg, #6fa798, #16325B);
     --verde-agua-claro: #defaf3;
     --azul-escuro: #16325B;
-    --verde-agua:#6fa798;
+    --verde-agua: #6fa798;
 }
 
 /* variáveis de tag - base */
@@ -18,16 +18,28 @@ header {
     padding: 20px;
     text-align: center;
 }
-
 a {
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--azul-escuro);
+    text-shadow: var(--verde-agua) 1px 1px 5px;
+}
+
+header a {
     color: white;
     padding: 1em;
 }
 
-a:hover {
-color: var(--verde-agua-claro);
-text-shadow: var(--verde-agua) 1px 1px 5px;
+header a:hover {
+    color: var(--verde-agua-claro);
+    text-shadow: var(--azul-escuro) 1px 1px 5px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 dl,
@@ -36,6 +48,12 @@ ol,
 p {
     margin-left: 2em;
 }
+
+li {
+    display: flex;
+    padding: 5px;
+}
+
 
 h3 {
     background: var(--gradiente-azul);
@@ -58,3 +76,6 @@ h3 {
     box-shadow: var(--verde-agua) 2px -1px 15px;
 }
 
+.icone {
+    padding-right: 5px;
+}
