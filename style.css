@@ -1,0 +1,60 @@
+/* variáveis */
+:root {
+    --gradiente-azul: linear-gradient(90deg, #6fa798, #16325B);
+    --verde-agua-claro: #defaf3;
+    --azul-escuro: #16325B;
+    --verde-agua:#6fa798;
+}
+
+/* variáveis de tag - base */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+header {
+    background: var(--gradiente-azul);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+a:hover {
+color: var(--verde-agua-claro);
+text-shadow: var(--verde-agua) 1px 1px 5px;
+}
+
+dl,
+ul,
+ol,
+p {
+    margin-left: 2em;
+}
+
+h3 {
+    background: var(--gradiente-azul);
+    color: white;
+    display: inline-block;
+    border-radius: 0 50px 50px 0;
+    padding: 1em 1em 1em 3em;
+    box-shadow: var(--verde-agua) 1px 1px 5px;
+}
+
+/* variáveis de classes */
+.links-topo {
+    margin: 1em;
+}
+
+.img-perfil {
+    max-width: 250px;
+    border-radius: 100%;
+    margin: 1em;
+    box-shadow: var(--verde-agua) 2px -1px 15px;
+}
+
