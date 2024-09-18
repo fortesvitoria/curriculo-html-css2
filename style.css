@@ -1,9 +1,9 @@
 /* variáveis */
 :root {
-    --gradiente-azul: linear-gradient(90deg, #6fa798, #16325B);
+    --gradiente-azul: linear-gradient(90deg, #90dfe2, #0a2958);
     --verde-agua-claro: #defaf3;
-    --azul-escuro: #16325B;
-    --verde-agua: #6fa798;
+    --azul-escuro: #0a2958;
+    --verde-agua: #90dfe2;
 }
 
 /* variáveis de tag - base */
