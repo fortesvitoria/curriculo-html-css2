@@ -82,7 +82,7 @@ h3 {
     display: inline-block;
     border-radius: 0 50px 50px 0;
     padding: 1em 1em 1em 3em;
-    box-shadow: var(--verde-agua) 1px 1px 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* variáveis de classes */
@@ -112,7 +112,7 @@ h3 {
     display: inline-block;
     border-radius: 100px;
     padding: 10px;
-    box-shadow: var(--verde-agua) 0.5px 0.5px 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .img-perfil {
@@ -122,6 +122,7 @@ h3 {
     color: white;
     padding: 0px 0px 0px 90px;
     border-radius: 15px 300px 300px 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* DIV CONTATO */
