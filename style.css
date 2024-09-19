@@ -97,11 +97,10 @@ h3 {
     text-align: center;
 }
 
-.img-perfil {
-    max-width: 300px;
+/* .img-perfil {
     padding-top: 20%;
     margin: auto;
-}
+} */
 
 .icone {
     padding-right: 5px;
@@ -116,15 +115,13 @@ h3 {
     box-shadow: var(--verde-agua) 0.5px 0.5px 5px;
 }
 
-.div-img-perfil {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:250px;
+.img-perfil {
+    margin: auto;
+    max-width: 300px;
     background: var(--gradiente-azul);
     color: white;
-    padding: 0px 20px 0px 10px;
-    border-radius: 15px 300px 300px 19px;
+    padding: 0px 0px 0px 90px;
+    border-radius: 15px 300px 300px 15px;
 }
 
 /* DIV CONTATO */
