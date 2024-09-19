@@ -1,4 +1,9 @@
 /* variáveis */
+/* importa fonte titulo */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* importa fonte corpo */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
     --gradiente-azul: linear-gradient(90deg, #90dfe2, #0a2958);
     --verde-agua-claro: #defaf3;
@@ -6,18 +11,32 @@
     --verde-agua: #90dfe2;
     --off-white: #d9e5f5;
     --grafite: #575a5f;
+    --fonte-titulo: "Questrial", sans-serif;
+    --fonte-corpo:  "Montserrat", sans-serif;
 }
 
 /* variáveis de tag - base */
 header {
     display: flex;
     align-items: col;
+    align-items: center;
+}
+h1 {
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 10px;
 }
 
+h2, h3, h4 {
+    font-family: var(--fonte-titulo);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
 body {
-    font-family: 'Lato', sans-serif;
     margin: 0;
     background-color: var(--off-white);
+    font-family: var(--fonte-corpo);
 }
 
 a {
@@ -67,8 +86,15 @@ h3 {
 }
 
 /* variáveis de classes */
+.info-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
 .links-topo {
     margin: 1em;
+    text-align: center;
 }
 
 .img-perfil {
@@ -94,11 +120,10 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 250px; */
+    gap:250px;
     background: var(--gradiente-azul);
     color: white;
     padding: 0px 20px 0px 10px;
-    /* text-align: center; */
     border-radius: 15px 300px 300px 19px;
 }
 
