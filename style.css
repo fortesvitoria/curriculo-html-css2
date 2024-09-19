@@ -123,4 +123,12 @@ h3 {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* DIV CONTATO */
+.linha-vertical {
+    max-height: 300px;
+    margin-bottom: 2.5em;
+}
+
+.div-linha-vertical {
+    display: flex;
+    flex-direction: column;
+}
