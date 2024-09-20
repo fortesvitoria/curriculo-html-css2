@@ -9,7 +9,7 @@
     --verde-agua-claro: #defaf3;
     --azul-escuro: #0a2958;
     --verde-agua: #90dfe2;
-    --off-white: #d9e5f5;
+    --off-white: #eaeaea;
     --grafite: #575a5f;
     --fonte-titulo: "Questrial", sans-serif;
     --fonte-corpo:  "Montserrat", sans-serif;
@@ -49,7 +49,6 @@ a {
 
 a:hover {
     color: var(--azul-escuro);
-    text-shadow: var(--verde-agua) 1px 1px 5px;
 }
 
 header a {
@@ -58,7 +57,7 @@ header a {
 }
 
 header a:hover {
-    color: var(--verde-agua-claro);
+    /* color: var(--verde-agua-claro); */
     text-shadow: var(--azul-escuro) 1px 1px 5px;
 }
 
@@ -111,6 +110,13 @@ h3 {
     border-radius: 100px;
     padding: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin: 0 0.5em 0 0.5em;
+}
+
+.btn-top:hover {
+background: var(--gradiente-azul);
+color: var(--off-white);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
 }
 
 .img-perfil {
@@ -120,7 +126,7 @@ h3 {
     color: white;
     padding: 0px 0px 0px 90px;
     border-radius: 15px 300px 300px 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 10px rgba(85, 56, 56, 0.3);
 }
 
 .linha-vertical {
