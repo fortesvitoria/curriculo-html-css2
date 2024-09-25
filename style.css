@@ -62,7 +62,6 @@ header a {
 }
 
 header a:hover {
-    /* color: var(--verde-agua-claro); */
     text-shadow: var(--azul-escuro) 1px 1px 5px;
 }
 
@@ -82,6 +81,14 @@ li {
     padding: 5px;
 }
 
+footer {
+    align-items: center;
+    text-align: center;
+    color: var(--off-white);
+    background: var(--gradiente-azul);
+    padding: 2em 0;
+}
+
 /* VARIÁVEIS DE CLASSES */
 
 
@@ -91,7 +98,6 @@ li {
 .secao-2 {
     max-width: 55%;
 }
-
 
 .titulo-topico {
     background: var(--gradiente-azul);
@@ -114,8 +120,15 @@ li {
     text-align: center;
 }
 
+/* icone seção1 */
 .icone {
     padding-right: 5px;
+}
+
+/* icone footer */
+.icone-footer {
+    filter: invert(1) sepia(1) saturate(1) hue-rotate(200deg);
+    padding: 0 10px;
 }
 
 .btn-top {
@@ -131,7 +144,6 @@ li {
 .btn-top:hover {
 background: var(--gradiente-azul);
 color: var(--off-white);
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
 }
 
 .img-perfil {
