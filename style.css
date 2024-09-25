@@ -78,11 +78,12 @@ li {
 }
 
 
-h3 {
+.titulo-topico {
     background: var(--gradiente-azul);
     color: white;
     display: inline-block;
     border-radius: 0 50px 50px 0;
+    font-size: large;
     padding: 1em 1em 1em 3em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
