@@ -28,11 +28,16 @@ h1 {
     letter-spacing: 10px;
 }
 
-h2, h3, h4 {
+h2 {
     font-family: var(--fonte-titulo);
     text-transform: uppercase;
     letter-spacing: 5px;
 }
+
+p, li, a {
+    font-weight: 500;
+}
+
 body {
     margin: 0;
     background-color: var(--off-white);
@@ -77,6 +82,16 @@ li {
     padding: 5px;
 }
 
+/* VARIÁVEIS DE CLASSES */
+
+
+.secao-contato {
+    width: 20%;
+}
+.secao-2 {
+    max-width: 55%;
+}
+
 
 .titulo-topico {
     background: var(--gradiente-azul);
@@ -88,7 +103,6 @@ li {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* variáveis de classes */
 .info-header {
     display: flex;
     flex-direction: column;
