@@ -11,6 +11,7 @@
     --verde-agua: #90dfe2;
     --off-white: #eaeaea;
     --grafite: #575a5f;
+    --sombra: #5c5d5e71;
     --fonte-titulo: "Questrial", sans-serif;
     --fonte-corpo:  "Montserrat", sans-serif;
 }
@@ -19,8 +20,10 @@
 header {
     display: flex;
     align-items: col;
-    align-items: center;
+    align-items: center;    
+    text-shadow: var(--sombra) 5px 5px 10px;
 }
+
 h1 {
     font-family: var(--fonte-titulo);
     text-transform: uppercase;
@@ -52,17 +55,13 @@ a {
     color: black;
 }
 
-a:hover {
-    color: var(--azul-escuro);
+a:hover {    
+    text-shadow: var(--sombra) 1px 1px 1px;
 }
 
 header a {
     color: white;
     padding: 1em;
-}
-
-header a:hover {
-    text-shadow: var(--azul-escuro) 1px 1px 5px;
 }
 
 ul {
@@ -90,7 +89,6 @@ footer {
 }
 
 /* VARIÁVEIS DE CLASSES */
-
 
 .secao-contato {
     width: 20%;
