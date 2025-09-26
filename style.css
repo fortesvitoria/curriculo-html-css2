@@ -13,14 +13,13 @@
     --grafite: #575a5f;
     --sombra: #5c5d5e71;
     --fonte-titulo: "Questrial", sans-serif;
-    --fonte-corpo:  "Montserrat", sans-serif;
+    --fonte-corpo: "Montserrat", sans-serif;
 }
 
 /* variáveis de tag - base */
 header {
     display: flex;
-    align-items: col;
-    align-items: center;    
+    align-items: center;
     text-shadow: var(--sombra) 5px 5px 10px;
 }
 
@@ -37,7 +36,9 @@ h2 {
     letter-spacing: 5px;
 }
 
-p, li, a {
+p,
+li,
+a {
     font-weight: 500;
 }
 
@@ -46,6 +47,7 @@ body {
     background-color: var(--off-white);
     font-family: var(--fonte-corpo);
 }
+
 main {
     display: flex;
 }
@@ -55,7 +57,7 @@ a {
     color: black;
 }
 
-a:hover {    
+a:hover {
     text-shadow: var(--sombra) 1px 1px 1px;
 }
 
@@ -90,9 +92,10 @@ footer {
 
 /* VARIÁVEIS DE CLASSES */
 
-.secao-contato {
-    width: 20%;
+.secao-mobile {
+    display: none;
 }
+
 .secao-2 {
     max-width: 55%;
 }
@@ -113,6 +116,7 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
 .links-topo {
     margin: 1em;
     text-align: center;
@@ -122,8 +126,6 @@ footer {
 .icone {
     padding-right: 5px;
 }
-
-
 
 /* icone footer */
 .icone-footer {
@@ -143,8 +145,8 @@ footer {
 }
 
 .btn-top:hover {
-background: var(--gradiente-azul);
-color: var(--off-white);
+    background: var(--gradiente-azul);
+    color: var(--off-white);
 }
 
 .img-perfil {
@@ -165,4 +167,94 @@ color: var(--off-white);
 .div-linha-vertical {
     display: flex;
     flex-direction: column;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
+    h2, h3,h4 {
+        padding: 0 25px;
+        margin: 10px 0;
+    }
+
+    h2,h3 {
+        font-size: 16px;;
+    }  
+    h4 {
+        font-size: 14px;;
+    }
+
+
+    .titulo-topico {
+    border-radius: 0 50px 50px 0;
+    font-size: 16px;
+    padding: 0.75em 0.75em 0.75em 2em;
+}
+
+    dl,
+    ul,
+    ol,
+    p {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    li {
+        padding-left: 25px;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .img-perfil {
+        margin: 0;
+        max-width: 150px;
+        padding: 30px 0px 0px 0px;
+        border-radius: 0px 0px 300px 300px;
+    }
+
+
+    .secao-mobile {
+        display: flex;
+        text-align: justify;
+        padding: 0 15px;
+
+    }
+
+    #secao-contato,
+    #formacao, #experiencia, #competencias
+    {
+    width: 100vw;
+    padding: 5px 0px;
+
+}
+
+#sobre-mim {
+    display: none;
+}
+
+.links-topo {
+    display: none;
+}
+
+.titulo-topico {
+    text-align: center;
+    margin-right: 25px;
+}
+
+.div-linha-vertical {
+    display: none;
+}
+
+footer {
+    font-size: 14px;
+}
 }
